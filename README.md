@@ -1,4 +1,5 @@
-#  AEIDSS — AI-Powered Epidemic Intelligence & Decision Support System
+# 🦠 AEIDSS — AI-Powered Epidemic Intelligence & Decision Support System
+
 <div align="center">
 
 ![AEIDSS Banner](https://img.shields.io/badge/AEIDSS-Epidemic%20Intelligence-1d6fdb?style=for-the-badge&logo=activity&logoColor=white)
@@ -42,13 +43,13 @@ AEIDSS (AI-Powered Epidemic Intelligence & Decision Support System) is a hackath
 
 ## ✨ Features
 
-###  Tab 1 — Overview
+### 📊 Tab 1 — Overview
 - **Dual-axis timeline** — Confirmed cases (left axis) + Deaths (right axis) on one chart
 - **Regional doughnut chart** — Cases broken down by world region (Europe, Asia, Americas, Africa, Oceania)
 - **Top-15 grouped bar chart** — Logarithmic scale comparison of cases vs deaths
 - **Bubble chart** — CFR% × Total Cases × Deaths (3 dimensions simultaneously)
 
-### Tab 2 — Time-Series Forecasting
+### 📈 Tab 2 — Time-Series Forecasting
 - **3 selectable forecasting models:**
   - **Holt Double Exponential Smoothing (DES)** — captures level + trend components
   - **Exponential Moving Average (EMA)** — weighted smoothing with configurable α
@@ -58,7 +59,7 @@ AEIDSS (AI-Powered Epidemic Intelligence & Decision Support System) is a hackath
 - **Configurable horizon** — 30, 60, 90, or 180 days
 - **New cases trend chart** — raw bars + EMA overlay (α = 0.3)
 
-### Tab 3 — Risk Assessment
+### 🛡️ Tab 3 — Risk Assessment
 - **201-country risk table** — searchable, filterable, with sub-region tags
 - **Composite risk scoring** — formula: `growth_rate × 0.5 + CFR × 5 + weekly_cases_factor`
 - **SHAP feature importance** — explains which factors drive risk classification
@@ -73,7 +74,7 @@ AEIDSS (AI-Powered Epidemic Intelligence & Decision Support System) is a hackath
 - **Peak Z-score ranking** — horizontal bar chart of top 20 worst historical surges
 - **Raw vs EMA chart** — new cases bars + smoothed trend overlay
 
-### Tab 5 — Intervention Simulation
+### 🔬 Tab 5 — Intervention Simulation
 - **Modified SEIR model** with 5 adjustable sliders:
   - Mobility Reduction (0–100%)
   - Vaccination Rate (0–100%)
@@ -84,7 +85,7 @@ AEIDSS (AI-Powered Epidemic Intelligence & Decision Support System) is a hackath
 - **What-if projection** — baseline vs intervention dual-area chart
 - **Output metrics** — Cases Averted, Deaths Averted, Reduction %
 
-### Universal AI Analysis (Optional)
+### 🤖 Universal AI Analysis (Optional)
 - Works with **8+ AI providers** — auto-detects provider from key format
 - Analysis types: Risk Assessment, Key Drivers, Intervention Advice, Forecast, Sub-region Analysis
 - Custom epidemic query box
@@ -92,7 +93,7 @@ AEIDSS (AI-Powered Epidemic Intelligence & Decision Support System) is a hackath
 
 ---
 
-##  Demo
+## 🎬 Demo
 
 ```
 Dashboard runs entirely in your browser.
@@ -136,14 +137,14 @@ No database. No backend framework. No build tools.
 ### AI Providers Supported
 | Provider | Key Format | Free Tier |
 |----------|-----------|-----------|
-| Groq | `gsk_...` |  Yes |
-| Google Gemini | `AIza...` |  Yes |
-| OpenRouter | `sk-or-...` |  Yes (free models) |
+| Groq | `gsk_...` | ✅ Yes |
+| Google Gemini | `AIza...` | ✅ Yes |
+| OpenRouter | `sk-or-...` | ✅ Yes (free models) |
 | OpenAI | `sk-...` | $5 credit |
 | Anthropic Claude | `sk-ant-...` | Paid |
 | Mistral AI | — | Trial credits |
 | Cohere | — | Trial credits |
-| Hugging Face | `hf_...` |  Yes |
+| Hugging Face | `hf_...` | ✅ Yes |
 
 ### Development Tools
 - **VS Code** — recommended editor
@@ -153,7 +154,7 @@ No database. No backend framework. No build tools.
 
 ---
 
-## Installation & Setup
+## 📦 Installation & Setup
 
 ### Prerequisites
 - A modern browser (Chrome, Firefox, Edge, Safari)
@@ -236,7 +237,7 @@ Expected output:
 http://localhost:8080/aeidss_dashboard.html
 ```
 
->  **Do NOT open the HTML file by double-clicking** if you want AI features. The AI proxy only works via `http://localhost:8080`.
+> ⚠️ **Do NOT open the HTML file by double-clicking** if you want AI features. The AI proxy only works via `http://localhost:8080`.
 
 ---
 
@@ -254,7 +255,7 @@ python run_aeidss.py
 
 ---
 
-##  Repository Structure
+## 📂 Repository Structure
 
 ```
 aeidss/
@@ -277,7 +278,7 @@ aeidss/
 
 ---
 
-##  Technical Workflow
+## ⚙️ Technical Workflow
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -373,7 +374,7 @@ Level: High > 20 | Medium > 10 | Low ≤ 10
 
 ---
 
-##  AI Analysis Setup
+## 🤖 AI Analysis Setup
 
 The AI analysis tab supports **8 providers** with auto-detection:
 
@@ -398,7 +399,7 @@ API_KEY = "hf_..."         # → HuggingFace (Mistral-7B)
 
 ---
 
-##  Dataset Citation
+## 📊 Dataset Citation
 
 ```
 Dong E, Du H, Gardner L. An interactive web-based dashboard to track
@@ -410,7 +411,7 @@ Data source: https://github.com/CSSEGISandData/COVID-19
 
 ---
 
-##  Hackathon Context
+## 🚀 Hackathon Context
 
 This project was developed for a hackathon with the theme:
 > *"AI-Powered System for Epidemic Spread Prediction, Risk Assessment, and Intervention Planning"*
@@ -421,7 +422,7 @@ This project was developed for a hackathon with the theme:
 
 ---
 
-##  Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature`
@@ -431,13 +432,13 @@ This project was developed for a hackathon with the theme:
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Team
+## 👥 Team
 
 Built for the **AI-Powered Epidemic Intelligence Hackathon**
 
@@ -445,11 +446,10 @@ Built for the **AI-Powered Epidemic Intelligence Hackathon**
 
 <div align="center">
 
-** Star this repo if you found it useful!**
+**⭐ Star this repo if you found it useful!**
 
-Made with using Chart.js, Python, and real COVID-19 data
+Made with ❤️ using Chart.js, Python, and real COVID-19 data
 
 </div>
-#   A I - P o w e r e d - E p i d e m i c - I n t e l l i g e n c e - D e c i s i o n - S u p p o r t 
- 
+#   A I - P o w e r e d - E p i d e m i c - I n t e l l i g e n c e - D e c i s i o n - S u p p o r t  
  
