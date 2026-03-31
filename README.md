@@ -1,5 +1,4 @@
 #  AEIDSS — AI-Powered Epidemic Intelligence & Decision Support System
-
 <div align="center">
 
 ![AEIDSS Banner](https://img.shields.io/badge/AEIDSS-Epidemic%20Intelligence-1d6fdb?style=for-the-badge&logo=activity&logoColor=white)
