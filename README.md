@@ -261,7 +261,7 @@ aeidss/
 
 ---
 
-## ⚙️ Technical Workflow
+## Technical Workflow
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -357,7 +357,7 @@ Level: High > 20 | Medium > 10 | Low ≤ 10
 
 ---
 
-## 🤖 AI Analysis Setup
+## AI Analysis Setup
 
 The AI analysis tab supports **8 providers** with auto-detection:
 
