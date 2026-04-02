@@ -1,4 +1,4 @@
-## AI-Powered-Epidemic-Intelligence-Decision-Support
+# AI-Powered-Epidemic-Intelligence-Decision-Support
 
 **A fully interactive, browser-based epidemic intelligence dashboard built on the Johns Hopkins COVID-19 CSSE dataset. Features real-time anomaly detection, time-series forecasting with confidence intervals, risk classification for 201 countries, intervention simulation, and universal AI analysis support across 8+ AI providers — all running locally with zero cloud dependency.**
 
