@@ -1,30 +1,3 @@
-#!/usr/bin/env python3
-"""
-========================================================
-  AEIDSS — Universal AI Proxy Server
-  Supports: Groq, Gemini, OpenAI, OpenRouter,
-            Anthropic, Mistral, Cohere, Hugging Face
-========================================================
-
-SETUP:
-  1. Get a FREE API key from any of these:
-       Groq       → https://console.groq.com          (FREE, fastest)
-       Gemini     → https://aistudio.google.com/apikey (FREE)
-       OpenRouter → https://openrouter.ai              (FREE models)
-       OpenAI     → https://platform.openai.com        ($5 free credit)
-       Anthropic  → https://console.anthropic.com      (paid)
-       Mistral    → https://console.mistral.ai         (FREE trial)
-
-  2. Paste your key below:
-       API_KEY = "your-key-here"
-
-  3. Run:  python run_aeidss.py
-  4. Open: http://localhost:8080
-
-  The server AUTO-DETECTS which provider your key belongs to!
-========================================================
-"""
-
 import http.server
 import socketserver
 import webbrowser
